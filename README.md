@@ -13,9 +13,8 @@ A Python-based graphical user interface (GUI) application for securely encoding 
 5. [How It Works](#how-it-works)
 6. [Security Features](#security-features)
 7. [Limitations](#limitations)
-8. [Contributing](#contributing)
-9. [License](#license)
-10. [Acknowledgments](#acknowledgments)
+8. [License](#license)
+9. [Acknowledgments](#acknowledgments)
 
 ---
 
