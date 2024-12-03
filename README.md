@@ -51,9 +51,9 @@ A Python-based graphical user interface (GUI) application for securely encoding 
    ```bash
    python steganography_tool.py
 
-##Usage
+## Usage
 
-###Encoding a Message
+### Encoding a Message
 
 1. Launch the application.
 2. Click on Encode Message.
@@ -62,7 +62,7 @@ A Python-based graphical user interface (GUI) application for securely encoding 
 5. Choose to enable encryption (optional) and provide a password (16, 24, or 32 characters).
 6. Save the encoded image to a desired location.
 
-###Decoding a Message
+### Decoding a Message
 
 1. Launch the application.
 2. Click on Decode Message.
@@ -70,43 +70,43 @@ A Python-based graphical user interface (GUI) application for securely encoding 
 4. Indicate whether the message was encrypted and provide the correct password if applicable.
 5. View the decoded message.
 
-##How It Works
+## How It Works
 
-###Encoding
+### Encoding
 
 1. Converts the message into a binary format.
 2. Optionally encrypts the message using AES encryption with a password.
 3. Compresses the message using zlib to optimize size.
 4. Embeds the binary message into the least significant bits (LSB) of the image pixels.
 
-###Decoding
+### Decoding
 
 1. Reads the binary data from the image's least significant bits.
 2. Extracts the message by identifying the delimiter.
 3. Decompresses and, if applicable, decrypts the message.
 
-##Security Features
+## Security Features
 
 - **AES Encryption**: Encrypts messages using AES in CBC mode.
 - **Password-Based Key Derivation**: Uses PBKDF2 with a salt for secure password-to-key conversion.
 - **Message Compression**: Reduces the size of the message to optimize encoding.
 
-##Limitations
+## Limitations
 
 - Message size is limited by the number of pixels in the image.
 - Only supports PNG images to ensure data integrity.
 
-##License
+## License
 
 - This project is licensed under the MIT License.
 
-##Acknowledgments
+## Acknowledgments
 
 - **PyCryptodome** for cryptographic functionalities.
 - **Pillow** for image processing.
 - **NumPy** for efficient numerical operations.
 
-##Notes
+## Notes
 
 1. Ensure the password for encryption is either 16, 24, or 32 characters long, as required by AES.
 2. Always keep a backup of the original image for recovery in case of issues with the encoded image.
