@@ -40,15 +40,15 @@ A Python-based graphical user interface (GUI) application for securely encoding 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/steganography-tool.git
-   cd steganography-tool
+   git clone https://github.com/cybercom0101/Steganography-Tool.git
+   cd Steganography-Tool
    
 2. Install the required dependencies:
    ```bash
-   pip install pillow pycryptodome numpy
+   pip install requirements.txt
 3. Run the application:
    ```bash
-   python steganography_tool.py
+   python Steganographytool.py
 
 ## Usage
 
